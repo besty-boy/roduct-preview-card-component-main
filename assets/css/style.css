@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&family=Italianno&family=Montserrat:wght@100;300;500&family=Poppins:wght@900&family=Srisakdi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: sans-serif;
 }
-.container{
+
+.container {
     background-color: #f2ebe3;
     width: 100%;
     height: 100vh;
@@ -16,7 +19,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.box{
+
+.box {
     background-color: #fff;
     width: 600px;
     height: 450px;
@@ -24,57 +28,69 @@ body{
     display: flex;
     box-shadow: 0px 0PX 21px rgba(0, 0, 0, 0.5);
 }
-img{
+
+img {
     border-radius: 20px 0 0 20px;
     width: 100%;
     transition: all .5s;
 }
-img:hover{
+
+img:hover {
     scale: 1.2;
 }
-.img{
+
+.img {
     height: 100%;
     width: 50%;
     border-radius: 20px 0 0 20px;
 }
-.img{
+
+.img {
     overflow: hidden;
 }
-.content-box{
+
+.content-box {
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 50px;
 }
-h1{
+
+h1 {
     text-transform: capitalize;
     font-family: 'Fraunces';
 }
-p:nth-child(1){
+
+p:nth-child(1) {
     text-transform: uppercase;
     letter-spacing: 7px;
     color: gray;
     font-size: 14px;
     font-weight: 700;
 }
-p:nth-child(3){
+
+p:nth-child(3) {
     line-height: 23px;
 }
-.price{
+
+.price {
     display: flex;
     margin-top: 20px;
 }
-h2{
+
+h2 {
     color: #3c8067;
     font-size: 35px;
     font-family: 'Fraunces';
 }
-.price p{
+
+.price p {
     text-decoration: line-through;
     margin: 11px;
 }
-a.btn{
+
+a.btn {
     width: 200px;
     height: 50px;
     background-color: #3c8067;
@@ -88,7 +104,14 @@ a.btn{
     text-transform: capitalize;
     padding: 20px;
 }
-img.cart{
+
+
+a.btn:hover {
+    background-color: #2d483f;
+
+}
+
+img.cart {
     width: 20px;
     margin-right: 10px;
 }
@@ -98,24 +121,28 @@ img.cart{
 /*responsive*/
 
 @media(max-width:610px) {
-    .box{
+    .box {
         width: 90%;
         height: 95%;
     }
-    .box{
+
+    .box {
         display: block;
     }
-    img{
+
+    img {
         width: 100%;
         display: block;
         border-radius: 20px 20px 0 0;
     }
-    .img{
+
+    .img {
         width: 100%;
-        height:30%;
+        height: 30%;
         border-radius: 20px 20px 0 0;
     }
-    img:hover{
+
+    img:hover {
         scale: 1;
     }
 
